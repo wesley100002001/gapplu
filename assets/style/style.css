@@ -1,0 +1,7 @@
+.image {
+  max-width: 800px;
+}
+
+.image img {
+  width: 100%;
+}
