@@ -4,18 +4,77 @@ body {
 
 .title {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 3rem auto;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.slogan {
+  /* background-color: #D3D3D3; */
+  color: grey;
+  font-size: 2rem;
+  padding: 2rem 0;
+  margin: 3rem auto 3rem;
+  max-width: 800px;
+  text-align: center;
+  font-style: italic;
+}
+
+.slogan .author {
+  color: black;
+  font-size: 0.8rem;
+  float: right;
+  margin-right: 2rem;
 }
 
 .title h1 {
   text-align: center;
 }
 
-.image {
+.image-section {
   max-width: 600px;
   margin: 0 auto;
 }
 
-.image img {
+.image-section img {
   width: 100%;
+}
+
+.image-section.banner {
+  max-width: 800px;
+  margin: 0 auto 4rem;
+}
+
+.image-section.syllabus {
+  margin: 2rem auto;
+}
+
+.image-section.line {
+  width: 150px;
+  margin: 2rem auto;
+}
+
+.teacher {
+  background-color: #F8F8F1;
+  padding: 1rem 2rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.teacher .image.avatar {
+  max-width: 200px;
+}
+
+.teacher .image.avatar img{
+  width: 100%;
+  border-radius: 125px;
+}
+
+.teacher .profile {
+  max-width: 250px;
+  text-align: center;
+  margin: auto 0;
+  padding: 0 2rem;
 }
