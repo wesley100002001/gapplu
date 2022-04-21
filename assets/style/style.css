@@ -67,7 +67,7 @@ body {
   max-width: 200px;
 }
 
-.teacher .image.avatar img{
+.teacher .image.avatar img {
   width: 100%;
   border-radius: 125px;
 }
@@ -77,4 +77,53 @@ body {
   text-align: center;
   margin: auto 0;
   padding: 0 2rem;
+}
+
+.teacher .profile .name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.teacher .profile .position {
+  font-size: 0.8rem;
+}
+
+@media only screen and (hover: none) {
+  .slogan {
+    font-size: 1rem;
+    margin: 0 auto 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    margin: 1rem auto;
+  }
+
+  .image-section {
+    max-width: initial;
+  }
+
+  .image-section.banner {
+    max-width: initial;
+    margin: 0 auto;
+  }
+
+  .image-section.syllabus {
+    max-width: initial;
+    margin: 0 auto;
+  }
+  /* Regular CSS rules here*/
+  .teacher {
+    /* margin: 0 auto; */
+    max-width: initial;
+  }
+
+  .teacher .image.avatar {
+    max-width: 5rem;
+  }
+
+  .teacher .profile {
+    margin: auto 0;
+    padding: 0 2rem;
+  }
 }
