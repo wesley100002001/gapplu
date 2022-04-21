@@ -101,6 +101,18 @@ body {
   font-size: 0.8rem;
 }
 
+.testimonial {
+  background-color: #F8F8F1;
+  max-width: 800px;
+  padding: 1rem 1.5rem 2.5rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.testimonial .student {
+  float: right;
+}
+
 @media only screen and (hover: none) {
   .slogan {
     font-size: 1rem;
