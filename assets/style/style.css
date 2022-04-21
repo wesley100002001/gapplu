@@ -49,9 +49,22 @@ body {
   margin: 2rem auto;
 }
 
+.image-section.social {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .image-section.line {
   width: 150px;
   margin: 2rem auto;
+  text-align: center;
+}
+
+.image-section.accupass {
+  max-width: 250px;
+  text-align: center;
 }
 
 .teacher {
@@ -112,6 +125,16 @@ body {
     max-width: initial;
     margin: 0 auto;
   }
+
+  .image-section.social .line {
+    width: 35%;
+    /* margin: 2rem auto; */
+  }
+  
+  .image-section.social .accupass {
+    width: 60%;
+  }
+
   /* Regular CSS rules here*/
   .teacher {
     /* margin: 0 auto; */
